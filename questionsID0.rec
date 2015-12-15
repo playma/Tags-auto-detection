@@ -1,0 +1,33 @@
+@QREC:1732348
+@LINK:/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags
+@TITLE:RegEx match open tags except XHTML self-contained tags
+@CONTENT:I need to match all of these opening tags: But not these: I came up with this and wanted to make sure I've got it right. I am only capturing the . I believe it says: Find a less-than, then Find (and capture) a-z one or more times, then Find zero or more spaces, then Find any character zero or more times, greedy, except , then Find a greater-than Do I have that right? And more importantly, what do you think?
+@CODE:<p>
+<a href="foo"> <br />
+<hr class="foo" /> a-z <([a-z]+) *[^/]*?> /
+@SCORE:1326
+@TAGS:html regex xhtml
+
+@QREC:5431941
+@LINK:/questions/5431941/why-is-while-feof-file-always-wrong
+@TITLE:Why is “while ( !feof (file) )” always wrong?
+@CONTENT:I've seen people trying to read files like this in a lot of posts lately. Why is this loop wrong?
+@CODE:#include <stdio.h>
+#include <stdlib.h>
+
+int
+main()
+{
+  FILE * fp = fopen ("input.txt", "r");
+  if ( fp == NULL )
+    return EXIT_FAILURE;
+  while ( !feof (fp) )
+    {
+      /* Read and process data from file… */
+    }
+  fclose (fp);
+  return EXIT_SUCCESS;
+} while ( !feof (fp) )
+@SCORE:176
+@TAGS:c feof
+

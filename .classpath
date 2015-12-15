@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="questionCrawler/src"/>
+	<classpathentry kind="src" path="tagCrawler/src"/>
+	<classpathentry kind="src" path="tf-idf/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/playma/Documents/workspace/IR_FinalProject/External_Jar/json-20151123.jar"/>
+	<classpathentry kind="lib" path="/Users/playma/Documents/workspace/IR_FinalProject/External_Jar/jsoup-1.8.3.jar"/>
+	<classpathentry kind="output" path="questionCrawler/bin"/>
+</classpath>
